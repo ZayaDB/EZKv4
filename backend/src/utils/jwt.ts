@@ -11,8 +11,9 @@ export const generateAccessToken = (payload: TokenPayload): string => {
   if (!secret) {
     throw new Error('JWT_SECRET is not defined');
   }
+  const expiresIn = (process.env.JWT_EXPIRES_IN || '15m') as string;
   const options: SignOptions = {
-    expiresIn: process.env.JWT_EXPIRES_IN || '15m',
+    expiresIn,
   };
   return jwt.sign(payload, secret, options);
 };
@@ -22,8 +23,9 @@ export const generateRefreshToken = (payload: TokenPayload): string => {
   if (!secret) {
     throw new Error('JWT_REFRESH_SECRET is not defined');
   }
+  const expiresIn = (process.env.JWT_REFRESH_EXPIRES_IN || '7d') as string;
   const options: SignOptions = {
-    expiresIn: process.env.JWT_REFRESH_EXPIRES_IN || '7d',
+    expiresIn,
   };
   return jwt.sign(payload, secret, options);
 };
