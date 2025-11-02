@@ -1,0 +1,31 @@
+{
+  "common": {
+    "welcome": "Тавтай морилно уу",
+    "login": "Нэвтрэх",
+    "register": "Бүртгүүлэх",
+    "logout": "Гарах",
+    "email": "Имэйл",
+    "password": "Нууц үг",
+    "name": "Нэр",
+    "submit": "Илгээх",
+    "cancel": "Цуцлах",
+    "save": "Хадгалах",
+    "delete": "Устгах",
+    "edit": "Засах",
+    "create": "Үүсгэх",
+    "search": "Хайх",
+    "filter": "Шүүх",
+    "sort": "Эрэмбэлэх"
+  },
+  "auth": {
+    "registerSuccess": "Бүртгэл амжилттай боллоо",
+    "loginSuccess": "Амжилттай нэвтэрлээ",
+    "loginFailed": "Нэвтрэхэд алдаа гарлаа",
+    "invalidCredentials": "Имэйл эсвэл нууц үг буруу байна"
+  },
+  "dashboard": {
+    "title": "Хяналтын самбар",
+    "welcome": "Тавтай морил, {{name}}"
+  }
+}
+

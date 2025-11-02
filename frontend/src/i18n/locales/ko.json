@@ -1,0 +1,31 @@
+{
+  "common": {
+    "welcome": "환영합니다",
+    "login": "로그인",
+    "register": "회원가입",
+    "logout": "로그아웃",
+    "email": "이메일",
+    "password": "비밀번호",
+    "name": "이름",
+    "submit": "제출",
+    "cancel": "취소",
+    "save": "저장",
+    "delete": "삭제",
+    "edit": "수정",
+    "create": "생성",
+    "search": "검색",
+    "filter": "필터",
+    "sort": "정렬"
+  },
+  "auth": {
+    "registerSuccess": "회원가입이 완료되었습니다",
+    "loginSuccess": "로그인되었습니다",
+    "loginFailed": "로그인에 실패했습니다",
+    "invalidCredentials": "이메일 또는 비밀번호가 올바르지 않습니다"
+  },
+  "dashboard": {
+    "title": "대시보드",
+    "welcome": "{{name}}님, 환영합니다"
+  }
+}
+
