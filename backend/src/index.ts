@@ -33,9 +33,11 @@ app.get('/api/health', (req, res) => {
 // Routes
 import authRoutes from './routes/auth';
 import userRoutes from './routes/users';
+import notificationRoutes from './routes/notifications';
 
 app.use('/api/auth', authRoutes);
 app.use('/api/users', userRoutes);
+app.use('/api/notifications', notificationRoutes);
 
 // Socket.io connection
 io.on('connection', (socket) => {
