@@ -16,8 +16,10 @@ Netlify 프로젝트의 "Site settings" → "Environment variables"에서:
 
 ### 필수 환경 변수
 - `VITE_API_URL`: Railway 백엔드 API URL
-  - 예: `https://your-api.railway.app`
-  - 또는 개발용: `http://localhost:3000`
+  - 형식: `https://your-backend-api.railway.app`
+  - 예시: `https://ezkv4-frontend-production.up.railway.app`
+  - ⚠️ **주의**: `https://` 프로토콜 포함해야 함
+  - ⚠️ **주의**: 백엔드 API 서비스의 URL이어야 함 (프론트엔드가 아닌)
 
 ### 빌드 설정
 - Node version: `18` (netlify.toml에 설정됨)
